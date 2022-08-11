@@ -1,0 +1,4 @@
+2022-08-11 18:06:06,620 [main] INFO  - ================================== SUITE Default Suite STARTED ==================================
+2022-08-11 18:06:07,340 [main] INFO  - ================================== TEST doSearchOnGooglePage STARTED ==================================
+2022-08-11 18:06:07,579 [main] DEBUG - Create new instance of Driver.
+2022-08-11 18:06:07,629 [main] INFO  - Chrome profile was created

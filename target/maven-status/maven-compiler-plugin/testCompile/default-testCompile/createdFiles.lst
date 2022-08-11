@@ -1,0 +1,9 @@
+bo/ScenarioData.class
+net/splendid/elmosoft/pages/GoogleSearchPage.class
+net/splendid/elmosoft/steps/MobileSteps.class
+net/splendid/elmosoft/pages/MobileMainPage.class
+net/splendid/elmosoft/tests/GoogleTest.class
+net/splendid/elmosoft/tests/AxelgateTest.class
+net/splendid/elmosoft/mobile_tests/MobileDemoTest.class
+net/splendid/elmosoft/pages/GoogleMainPage.class
+net/splendid/elmosoft/steps/GoogleSteps.class

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[2022-08-11 16:05:38,989 [main] DEBUG - Close all opened during tests executing browsers
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite name="Splendid Suite" duration-ms="12" started-at="2022-08-11T13:05:38Z" finished-at="2022-08-11T13:05:38Z">
+    <groups>
+    </groups>
+    <test name="Google test" duration-ms="12" started-at="2022-08-11T13:05:38Z" finished-at="2022-08-11T13:05:38Z">
+      <class name="net.splendid.elmosoft.tests.AxelgateTest">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:net.splendid.elmosoft.tests.AxelgateTest@690bc15e]" name="suiteSetUp" is-config="true" duration-ms="70" started-at="2022-08-11T13:05:38Z" description="Suite Level Setup" finished-at="2022-08-11T13:05:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:net.splendid.elmosoft.tests.AxelgateTest@690bc15e]" name="suiteTearDown" is-config="true" duration-ms="157" started-at="2022-08-11T13:05:38Z" description="Suite Level Tear Down" finished-at="2022-08-11T13:05:39Z">
+          <reporter-output>
+            <line>
+              <![CDATA[2022-08-11 16:05:38,989 [main] DEBUG - Close all opened during tests executing browsers
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- net.splendid.elmosoft.tests.AxelgateTest -->
+    </test> <!-- Google test -->
+  </suite> <!-- Splendid Suite -->
+</testng-results>

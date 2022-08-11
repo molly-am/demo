@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Splendid Suite" >
+ 	<test verbose="1" name="Google test" annotations="JDK">
+		<parameter name="missionType" value="PICKUP"></parameter>
+		<parameter name="jsonFile" value="scenario.data.json"/>
+		<classes>
+			<class name="net.splendid.elmosoft.tests.GoogleTest" />
+		</classes>
+	</test>
+
+</suite>
