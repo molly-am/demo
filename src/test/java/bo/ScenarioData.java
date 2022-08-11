@@ -17,9 +17,10 @@ import lombok.ToString;
 public class ScenarioData implements Serializable {
 
 	private boolean onlyForManager;
-	private String firstName;
+	private String email;
 	private String login;
 	private String lastName;
 	private String paymentType;
+	private String password;
 
 }

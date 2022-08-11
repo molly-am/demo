@@ -12,4 +12,11 @@ public class MobileSteps {
         mainPage.checkPage();
         mainPage.doLogin();
     }
+
+    @Step("Make succesfull login with params")
+    public void doLoginWithParams(String email, String password) {
+        MobileMainPage mainPage = new MobileMainPage();
+        mainPage.checkPage();
+        mainPage.doLogin(email, password);
+    }
 }

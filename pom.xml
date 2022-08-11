@@ -28,7 +28,7 @@
         <retry.attempts>4</retry.attempts>
 
         <!--Framework Options-->
-        <browser>chrome</browser>
+        <browser>android</browser>
         <autoScreenshot>true</autoScreenshot>
         <headless>false</headless>
         <video>false</video>

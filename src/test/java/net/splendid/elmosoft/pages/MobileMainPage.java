@@ -12,19 +12,19 @@ import org.openqa.selenium.Keys;
 
 public class MobileMainPage extends Page {
 
-    @AndroidFindBy(accessibility = "test")
+    @AndroidFindBy(id = "login")
     @iOSXCUITFindBy(accessibility = "signin")
     private MobileElement loginBtn;
 
-    @AndroidFindBy(accessibility = "username")
+    @AndroidFindBy(id = "username")
     @iOSXCUITFindBy(iOSClassChain="**/XCUIElementTypeTextField[`label == \"username\"`]")
     private MobileElement username;
 
-    @AndroidFindBy(accessibility = "password")
+    @AndroidFindBy(id = "password")
     @iOSXCUITFindBy(iOSClassChain="**/XCUIElementTypeOther[`label == \"password\"`][1]")
     private MobileElement password;
 
-    @AndroidFindBy(accessibility = "validateBtn")
+    @AndroidFindBy(id = "login")
     @iOSXCUITFindBy(accessibility="login")
     private MobileElement validateBtn;
 
@@ -46,6 +46,13 @@ public class MobileMainPage extends Page {
         loginBtn.click();
         username.type("test name");
         password.type("testpasswprd");
+        validateBtn.click();
+    }
+
+    public void doLogin(String email, String pass) {
+        loginBtn.click();
+        username.type(email);
+        password.type(pass);
         validateBtn.click();
     }
 }

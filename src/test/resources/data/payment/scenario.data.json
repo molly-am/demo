@@ -2,8 +2,9 @@
   {
     "onlyForManager": false,
     "lastName": "Driver",
-    "firstName": "Apptest",
+    "email": "elmosoft@gmail.com",
     "login": "driver_apptest@elmosoft.net",
-    "paymentType": "WALLET"
+    "paymentType": "WALLET",
+    "password": "12345678qw!"
   }
 ]
